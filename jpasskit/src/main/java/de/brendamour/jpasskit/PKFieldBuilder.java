@@ -44,7 +44,7 @@ public class PKFieldBuilder implements IPKValidateable, IPKBuilder<PKField> {
     private PKField field;
     private List<PKDataDetectorType> dataDetectorTypes;
 
-    protected PKFieldBuilder() {
+    public PKFieldBuilder() {
         this.field = new PKField();
         this.dataDetectorTypes = new CopyOnWriteArrayList<>();
     }

@@ -284,4 +284,8 @@ public class PKGenericPassBuilder implements IPKValidateable, IPKBuilder<PKGener
         }
         return PKPassType.PKGenericPass;
     }
+    
+    public static PKGenericPassBuilder builder() {
+        return new PKGenericPassBuilder();
+    }
 }
